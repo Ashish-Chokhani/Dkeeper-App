@@ -63,7 +63,7 @@ dkeeper
 │   │   │   ├── index.html
 │   │   │   ├── index.js
 │   │   │   └── ...
-│   │   ├── assets
+│   │   ├── dkeeper_assets
 │   │   ├── declarations
 │   │   └── ...
 ├── dfx.json
