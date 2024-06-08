@@ -77,17 +77,16 @@ The configuration file for the dfx tool, specifying canister settings, network c
 
 `src` Folder
 Contains the source code for the dkeeper application, including frontend assets and canister code.
+- `index.html`: The main HTML file for the application.
+- `index.js`: The main JavaScript file for the application.
+- Assets: Static files (e.g., images, stylesheets).
+- Declarations: Generated files that provide type information for interacting with canisters.
 
 # Key Features
 - **Create Notes**: Users can add new notes.
 - **View Notes**: Users can view all their notes.
 - **Delete Notes**: Users can delete notes.
 - **Decentralized Storage**: Notes are stored on a blockchain.
-
-- `index.html`: The main HTML file for the application.
-- `index.js`: The main JavaScript file for the application.
-- Assets: Static files (e.g., images, stylesheets).
-- Declarations: Generated files that provide type information for interacting with canisters.
 
 
 # Contributions
