@@ -34,13 +34,13 @@ To test your project locally, use the following commands:
 ```bash
 dfx start --background
 ```
-# Starts the replica, running in the background
+#### Starts the replica, running in the background
 
 
 ```bash
 dfx deploy
 ```
-# Deploys your canisters to the replica and generates your candid interface
+#### Deploys your canisters to the replica and generates your candid interface
 
 Once the job completes, the application will be available at `http://localhost:8080?canisterId={asset_canister_id}`.
 
