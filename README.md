@@ -1,25 +1,86 @@
-# dkeeper
+# Dkeeper
 
-Welcome to my new dkeeper project and to the internet computer development. 
+Welcome to my new dkeeper project and to the Internet Computer development. This project is a decentralized note-keeping application that leverages the power of the Internet Computer to securely store and manage notes in a decentralized manner.
 
-## Running the project locally
+## Table of Contents
+- [Project Description](#project-description)
+- [Technologies Used](#technologies-used)
+- [How to Run](#how-to-run)
+  - [Running the Project Locally](#running-the-project-locally)
+  - [Development Server](#development-server)
+- [Directory Structure](#directory-structure)
+- [File Descriptions](#file-descriptions)
+  - [`dfx.json`](#dfxjson)
+  - [`src`](#src-folder)
+- [Contributions](#contributions)
 
-If you want to test your project locally, you can use the following commands:
+## Project Description
+
+Dkeeper is a decentralized note-keeping application built on the Internet Computer. Users can create, view, and delete notes. The notes are securely stored on the blockchain, ensuring immutability and decentralization.
+
+## Technologies Used
+
+- **Internet Computer**: Decentralized computing platform by DFINITY.
+- **Motoko**: Programming language for developing on the Internet Computer.
+- **React**: JavaScript library for building user interfaces.
+- **dfx**: Command-line tool for managing Internet Computer projects.
+
+## How to Run
+
+### Running the Project Locally
+
+To test your project locally, use the following commands:
 
 ```bash
-# Starts the replica, running in the background
 dfx start --background
+```
+# Starts the replica, running in the background
 
-# Deploys your canisters to the replica and generates your candid interface
+
+```bash
 dfx deploy
 ```
+# Deploys your canisters to the replica and generates your candid interface
 
 Once the job completes, the application will be available at `http://localhost:8080?canisterId={asset_canister_id}`.
 
-Additionally, if anyone is making frontend changes, you can start a development server with
+### Development Server
+If you are making frontend changes, you can start a development server with:
 
 ```bash
 npm start
 ```
+This will start a server at `http://localhost:8080`, proxying API requests to the replica at port 8000.
 
-Which will start a server at `http://localhost:8080`, proxying API requests to the replica at port 8000.
+# Directory structure
+
+```bash
+dkeeper
+├── src
+│   ├── dkeeper_assets
+│   │   ├── src
+│   │   │   ├── index.html
+│   │   │   ├── index.js
+│   │   │   └── ...
+│   │   ├── assets
+│   │   ├── declarations
+│   │   └── ...
+├── dfx.json
+├── package.json
+└── README.md
+```
+
+# File Descriptions
+`dfx.json`
+The configuration file for the dfx tool, specifying canister settings, network configurations, and other project-specific information.
+
+`src` Folder
+Contains the source code for the dkeeper application, including frontend assets and canister code.
+
+- `index.html`: The main HTML file for the application.
+- `index.js`: The main JavaScript file for the application.
+- Assets: Static files (e.g., images, stylesheets).
+- Declarations: Generated files that provide type information for interacting with canisters.
+
+
+Contributions
