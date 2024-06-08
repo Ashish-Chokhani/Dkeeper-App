@@ -1,4 +1,4 @@
-# Dkeeper
+# Dkeeper-App
 
 Welcome to my new dkeeper project and to the Internet Computer development. This project is a decentralized note-keeping application that leverages the power of the Internet Computer to securely store and manage notes in a decentralized manner.
 
