@@ -12,6 +12,7 @@ Welcome to my new dkeeper project and to the Internet Computer development. This
 - [File Descriptions](#file-descriptions)
   - [`dfx.json`](#dfxjson)
   - [`src`](#src-folder)
+- [Key Features](#key-features)
 - [Contributions](#contributions)
 
 ## Project Description
