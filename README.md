@@ -90,4 +90,5 @@ Contains the source code for the dkeeper application, including frontend assets 
 - Declarations: Generated files that provide type information for interacting with canisters.
 
 
-#Contributions
+# Contributions
+If you would like to contribute to this project, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
