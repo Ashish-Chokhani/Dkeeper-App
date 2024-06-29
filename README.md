@@ -33,6 +33,11 @@ Dkeeper is a decentralized note-keeping application built on the Internet Comput
 To test your project locally, use the following commands:
 
 ```bash
+rm -rf .dfx
+```
+ ### Removes the .dfx directory and all its contents, resetting the local state and requiring you to recompile and redeploy your canisters.
+
+```bash
 dfx start --background
 ```
 #### Starts the replica, running in the background
